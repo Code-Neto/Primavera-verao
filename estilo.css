@@ -1,0 +1,56 @@
+.cabecalho{
+    background-color: #252a36;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+    height: 88px;
+    margin: 5px 0 0 5px;
+    cursor: pointer;
+}
+
+.navegador{
+    display: flex;
+    margin-top: 17px;
+}
+
+.navegador ul{
+    display: flex;
+}
+
+.navegador ul li{
+    border-radius: 3px;
+    color: #ffff;
+    text-align: center;
+    width: 90px;
+    height: 45px;
+    font-size: 16px;
+    padding: 10px 20px;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.navegador .btn{
+    margin: 5px 11px 0 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    background-color: #828ece;
+}
+
+.navegador ul li:hover{
+    background-color: #828ece;
+}
+
+.navegador .btn:is(:hover, :focus){
+    background-color: #707ab3;
+    outline: 2px solid #707ab3;
+    outline-offset: 2px;
+}
+
+.informacaoSimplesVisual{
+    display: flex;
+}
