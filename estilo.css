@@ -2,6 +2,8 @@
     background-color: #252a36;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -51,6 +53,30 @@
     outline-offset: 2px;
 }
 
-.informacaoSimplesVisual{
+.sobre .informacaoSimplesVisual{
     display: flex;
+    justify-content: space-between;
+    background: url(./img/R\ \(1\).jpg) center center no-repeat;
+}
+
+.sobre .informacaoSimplesVisual .infoComImagen{
+    color: black;
+    background-color: #fff;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border-radius: 12px;
+    margin:175px 0 75px 40px;
+    outline: 2px solid #ffff;
+    outline-offset: 4px;
+}
+
+.sobre .informacaoSimplesVisual .infoComImagen h2{
+    margin-top: 35px;
+    size: 25;
+}
+
+.sobre .informacaoSimplesVisual .infoComImagen a{
+    padding: 15px;
+    cursor: pointer;
 }
