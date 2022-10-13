@@ -56,7 +56,9 @@
 .sobre .informacaoSimplesVisual{
     display: flex;
     justify-content: space-between;
-    background: url(./img/R\ \(1\).jpg) center center no-repeat;
+    background: url(./img/R\ \(1\).jpg) center center no-repeat ;
+    width: 100%;
+    height: 100%;
 }
 
 .sobre .informacaoSimplesVisual .infoComImagen{
