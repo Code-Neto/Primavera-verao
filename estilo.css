@@ -102,3 +102,36 @@
     box-shadow: 5px 5px 0px 0px #252a36;
     transition: 0.5s;
 }
+
+.sobreNos{
+    display: inline-block;
+}
+
+
+.sobreNos .temacores img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-size: cover;
+}
+
+.sobreNos .mostrar{
+    background-color: #f2ecea;
+    display: flex;
+}
+
+.sobreNos .mostrar img{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    background-size: cover;
+    margin: 12px;
+}
+
+
+.sobreNos .mostrar .descricao{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
