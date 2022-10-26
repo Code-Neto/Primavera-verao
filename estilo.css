@@ -56,7 +56,8 @@
 .sobre .informacaoSimplesVisual{
     display: flex;
     justify-content: space-between;
-    background: url(./img/R\ \(1\).jpg) center center no-repeat ;
+    background: url(./img/R\ \(1\).jpg) center center no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100%;
 }
@@ -78,7 +79,26 @@
     size: 25;
 }
 
+.sobre .informacaoSimplesVisual .infoComImagen p{
+    margin-bottom: 20px;
+    display: block;
+}
+
 .sobre .informacaoSimplesVisual .infoComImagen a{
+    width: 175px;
     padding: 15px;
     cursor: pointer;
+    background-color: #707ab3;
+    color: #ffff;
+    border-radius: 9px;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.sobre .informacaoSimplesVisual .infoComImagen a:hover{
+    margin-left: 85px;
+    box-shadow: 5px 5px 0px 0px #252a36;
+    transition: 0.5s;
 }
